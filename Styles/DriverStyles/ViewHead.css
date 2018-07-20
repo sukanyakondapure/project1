@@ -1,0 +1,27 @@
+﻿.viewhead
+{
+    border: 3px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: #000000;
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 25px;
+    font-weight: bold;
+}  
+.viewhead12
+{
+    border: 5px solid #000000;
+    color: #FFFFFF;
+    background-color: #654D1B;
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 25px;
+    font-weight: lighter;
+}
+.viewhead2
+{
+    border: 5px solid #000000;
+    color: #FFFFFF;
+    background-color: #666699;
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 25px;
+    font-weight: lighter;
+}

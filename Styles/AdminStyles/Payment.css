@@ -1,0 +1,25 @@
+﻿.tblpay
+{
+    border: 4px solid #000000;
+    background-color: #CACAE6;
+    font-weight: lighter;
+    font-size: 20px;
+    width: 450px;
+    height: 270px;
+    text-align: left;
+}
+.tdtitle6
+{
+    border: 5px solid #000000;
+    background-color: #383872;
+    font-family: 'Arial Rounded MT Bold';
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: Center;
+    height:35px;
+}
+.align1
+{
+    text-align:center;
+}

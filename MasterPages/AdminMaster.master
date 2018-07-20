@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPages/MainMaster.master"AutoEventWireup="true" CodeFile="AdminMaster.master.cs" Inherits="Master_Pages_AdminMaster" %>
+
+<%@ Register src="~/UserControls/AdminUserControls/AdminHeaderControl.ascx" TagName="ucheader" TagPrefix="uc1" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <link href="../Styles/AdminStyles/BusReg.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/AdminStyles/UpdateTax.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/AdminStyles/SearchExpAndCollect.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/AdminStyles/StaffReg.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/AdminStyles/ChangePwd.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/AdminStyles/NewRoute.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/AdminStyles/Payment.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/AdminStyles/ViewHead.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .style2
+        {
+            width: 627px;
+        }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <div style="background-image: url('../Images/BackgroundImages/images/AdminPage.jpg'); text-align: center; width:100%; margin-left: 0px;">
+       <table style="width: 613px">
+       <tr>
+       <td class="style2" align="center">          
+         <uc1:ucheader id="u1" runat="server" />                          
+       </td>
+       </tr>
+       <tr>
+       <td class="style2">
+           <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">                    
+           </asp:ContentPlaceHolder>
+       </td>
+       </tr>
+        </table>
+    </div>
+</asp:Content>
+

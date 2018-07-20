@@ -1,0 +1,126 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+<asp:Menu runat="server"   BackColor="#333399"  DynamicHorizontalOffset="2" 
+                        Font-Names="Arial Rounded MT Bold" Font-Size="Large" ForeColor="White" 
+                        StaticSubMenuIndent="10px" Font-Bold="False" Width="462px">
+                       <DataBindings>
+                            <asp:MenuItemBinding DataMember="SiteMapNode" NavigateUrlField="Url" 
+                                TextField="Title" ToolTipField="Description" />
+                        </DataBindings> 
+                        <DynamicHoverStyle BackColor="Black" ForeColor="white"  />
+                        <DynamicMenuItemStyle BackColor="#598FFF" HorizontalPadding="5px" VerticalPadding="2px" />
+                       <DynamicSelectedStyle BackColor="#336600" ForeColor="White" />
+                       <StaticHoverStyle BackColor="Black" ForeColor="White" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticMenuStyle HorizontalPadding="10px" VerticalPadding="2px" />
+                        <StaticSelectedStyle BackColor="Black" />
+   </asp:Menu>
+    <asp:Label  SkinId="Dark Pink" runat="server" BackColor="#B30059" BorderColor="Black" 
+        BorderStyle="Solid" Font-Bold="True" Font-Size="X-Large" ForeColor="White" 
+        Width="214px" ></asp:Label>    
+    <asp:GridView   SkinId="Black" runat="server" BackColor="Black" 
+        BorderColor="Black" BorderStyle="None" BorderWidth="3px" CellPadding="4" 
+        CellSpacing="2" ForeColor="Black">
+        <FooterStyle BackColor="#CCCCCC" />
+        <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
+        <PagerStyle BackColor="#CCCCCC" ForeColor="Black" HorizontalAlign="Left" />
+        <RowStyle BackColor="LightGray" />
+        <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+        <SortedAscendingCellStyle BackColor="#F1F1F1" />
+        <SortedAscendingHeaderStyle BackColor="#808080" />
+        <SortedDescendingCellStyle BackColor="#CAC9C9" />
+        <SortedDescendingHeaderStyle BackColor="#383838" />
+    </asp:GridView>
+     <asp:Label SkinId="Violet" runat="server" Text="All Tax Details" BackColor="#660066" 
+           Font-Bold="True" Font-Size="X-Large" ForeColor="White" BorderColor="Black" 
+           BorderStyle="Solid"></asp:Label>
+        <asp:GridView  SkinId="Dark Pink1" runat="server" BackColor="Black" 
+           BorderColor="#999999" BorderStyle="Solid" BorderWidth="3px" CellPadding="4" 
+           CellSpacing="2" ForeColor="Black" >
+        <FooterStyle BackColor="#CCCCCC" />
+        <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
+        <PagerStyle BackColor="#CCCCCC" ForeColor="Black" HorizontalAlign="Left" />
+        <RowStyle BackColor="#CD5F91" />
+        <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+        <SortedAscendingCellStyle BackColor="#F1F1F1" />
+        <SortedAscendingHeaderStyle BackColor="#808080" />
+        <SortedDescendingCellStyle BackColor="#CAC9C9" />
+        <SortedDescendingHeaderStyle BackColor="#383838" />
+       </asp:GridView>
+       <asp:Button SkinId="btncolor" runat="server"  Width="72px" 
+        BackColor="#003E3E" BorderStyle="Solid" BorderWidth="2px" Font-Bold="True" 
+        Font-Size="Medium" ForeColor="White" Height="34px" />
+        <asp:TextBox SkinId="txt" runat="server" Height="19px" Width="173px"></asp:TextBox>
+        <asp:DropDownList SkinId="ddl" runat="server" Height="25px" Width="173px"></asp:DropDownList>
+        <asp:DropDownList SkinId="ddl1" runat="server" Height="25px" Width="140px"></asp:DropDownList>
+        <asp:TextBox SkinID="txt1" runat="server" Height="20px" Width="119px"></asp:TextBox>
+        <asp:ImageButton runat="server" Height="21px" ImageUrl="~/Images/icon_calendar_small.gif" Width="21px" 
+         BackColor="Black" BorderColor="White" />
+          <asp:Button SkinId="btn1" runat="server" BackColor="#550055" 
+        BorderColor="White" BorderStyle="Ridge" BorderWidth="3px" Font-Size="Large" 
+        ForeColor="White" Height="33px" Width="94px" />
+         <asp:Button SkinId="btn2" runat="server"  BackColor="#06304F" 
+                BorderColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Size="18px" 
+                ForeColor="White" Height="30px" Width="75px"/> 
+                <asp:Button SkinId="btn4" runat="server"  BackColor="#181D16" 
+                BorderColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Size="18px" 
+                ForeColor="White" Height="30px" Width="75px"/> 
+                <asp:Button SkinId="btn5" runat="server"  BackColor="black" 
+                BorderColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Size="18px" 
+                ForeColor="White" Height="30px" Width="70px"/>
+                <asp:Button SkinId="btn3" runat="server"  Width="75px" 
+        BackColor="#BA3E1F" BorderStyle="Solid" BorderColor="Black"  BorderWidth="2px" Font-Bold="True" 
+        Font-Size="17px" ForeColor="White" Height="30px" />
+        <asp:GridView SkinId="Violet" runat="server" BackColor="Black" 
+        BorderColor="Black" BorderStyle="Solid" BorderWidth="3px" CellPadding="4" 
+        CellSpacing="2" ForeColor="Black">
+        <FooterStyle BackColor="#CCCCCC" />
+        <HeaderStyle BackColor="#4F004F" Font-Bold="True" ForeColor="White" />
+        <PagerStyle BackColor="#CCCCCC" ForeColor="Black" HorizontalAlign="Left" />
+        <RowStyle BackColor="#E6C5FC" />
+        <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+        <SortedAscendingCellStyle BackColor="#F1F1F1" />
+        <SortedAscendingHeaderStyle BackColor="#808080" />
+        <SortedDescendingCellStyle BackColor="#CAC9C9" />
+        <SortedDescendingHeaderStyle BackColor="#383838" />
+    </asp:GridView>
+    <asp:GridView SkinId="Coffee" runat="server" BackColor="Black" 
+        BorderColor="Black" BorderStyle="Solid" BorderWidth="3px" CellPadding="4" 
+        CellSpacing="2" ForeColor="Black" Width="315px">
+        <FooterStyle BackColor="#CCCCCC" />
+        <HeaderStyle BackColor="#2D1A23" Font-Bold="True" ForeColor="White" />
+        <PagerStyle BackColor="#CCCCCC" ForeColor="Black" HorizontalAlign="Left" />
+        <RowStyle BackColor="#D0AEC4" />
+        <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+        <SortedAscendingCellStyle BackColor="#F1F1F1" />
+        <SortedAscendingHeaderStyle BackColor="#808080" />
+        <SortedDescendingCellStyle BackColor="#CAC9C9" />
+        <SortedDescendingHeaderStyle BackColor="#383838" />
+    </asp:GridView>
+    <asp:Label SkinId="lblgrid" width="462px" runat="server" BackColor="Black" BorderColor="white" BorderWidth="2px" ForeColor="White" Font-Size="X-Large" Font-Bold="True"></asp:Label>
+     <asp:GridView SkinId="Coffee1" runat="server" BackColor="Black" 
+        BorderColor="Black" BorderStyle="Solid" BorderWidth="3px" CellPadding="4" 
+        CellSpacing="2" ForeColor="Black" Width="460px">
+        <FooterStyle BackColor="#CCCCCC" />
+        <HeaderStyle BackColor="#2D1A23" Font-Bold="True" ForeColor="White" />
+        <PagerStyle BackColor="#CCCCCC" ForeColor="Black" HorizontalAlign="Left" />
+        <RowStyle BackColor="#D0AEC4" />
+        <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+        <SortedAscendingCellStyle BackColor="#F1F1F1" />
+        <SortedAscendingHeaderStyle BackColor="#808080" />
+        <SortedDescendingCellStyle BackColor="#CAC9C9" />
+        <SortedDescendingHeaderStyle BackColor="#383838" />
+    </asp:GridView>

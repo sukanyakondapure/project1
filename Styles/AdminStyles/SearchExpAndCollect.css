@@ -1,0 +1,47 @@
+﻿.tdhead
+{
+    border: medium solid #000000;
+    height: 35px;
+    background-color: #550055;
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 25px;
+}
+.trsize1
+{
+    height:50px;
+}
+.trsize2
+{
+    height:30px;
+}
+.tbl1
+{
+    border: medium solid #000000;
+    background-color: #E6C5FC;
+    font-size: 20px;
+    color: #000000;
+    height: 250px;
+    width:550px;   
+}
+.talign1
+{
+    text-align: left;
+     width:200px;  
+  
+}
+.talign2
+{
+    text-align: left;
+   
+}
+.tdbtn
+{
+    text-align: center;
+    height: 40px;
+    vertical-align: middle;
+}
+.row
+{
+    font-size: 16px;
+}

@@ -1,0 +1,47 @@
+﻿.heading1
+{
+    background-color: #44457D;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 25px;
+    border: medium solid #000000;
+    text-align: center;
+    height: 35px;
+}
+.tab1
+{
+    border: medium solid #000000;
+    background-color: #D2D3E8;
+    text-align: left;
+    width: 470px;
+}
+.endtd1
+{
+   text-align: center;
+   height:60px;
+}
+.size1
+{
+    font-size: 21px;
+    font-weight: 500;
+    
+}
+.tdwidth1
+{
+    width:225px;
+    text-align: left;
+}
+.ptbl
+{
+    width:450px;
+}
+.ptd
+{
+    width:225px;
+    text-align: left;
+}
+.ptd1
+{
+    width:230px;
+    text-align: left;
+}

@@ -1,0 +1,27 @@
+﻿.table
+{
+    border: thick solid #FFFF99;
+    background-color: #000066;
+    height: 221px;
+    width: 321px;
+}
+.td
+{
+    background-color: #C80283;
+    font-size: x-large;
+    font-family: Arial;
+    font-weight: bold;
+    color: #FFFFFF;
+     text-align:center;
+     height:40px;
+}
+.lbl
+{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: medium;
+}
+.td1
+{
+    text-align: center;
+}

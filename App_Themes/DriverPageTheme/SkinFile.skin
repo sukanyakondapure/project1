@@ -1,0 +1,49 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+<asp:Menu runat="server" BackColor="#0000B0" DynamicHorizontalOffset="2" 
+                        Font-Names="Arial Rounded MT Bold" Font-Size="Large" ForeColor="White" 
+                        StaticSubMenuIndent="10px" Font-Bold="False" Width="602px">
+                        <DataBindings>
+                        <asp:MenuItemBinding DataMember="siteMapNode" NavigateUrlField="url" 
+                        TextField="title" ToolTipField="description" />
+                        <asp:MenuItemBinding DataMember="siteMapNode" NavigateUrlField="url" 
+                        TextField="title" ToolTipField="description" />
+                        <asp:MenuItemBinding DataMember="siteMapNode" NavigateUrlField="url" 
+                        TextField="title" ToolTipField="description" />
+                        </DataBindings> 
+                        <DynamicHoverStyle BackColor="Black" ForeColor="white"  />
+                        <DynamicMenuItemStyle BackColor="#598FFF" HorizontalPadding="5px" VerticalPadding="2px" />
+                       <DynamicSelectedStyle BackColor="#336600" ForeColor="Black" />
+                       <StaticHoverStyle BackColor="Black" ForeColor="White" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticMenuStyle VerticalPadding="2px" />
+                        <StaticSelectedStyle BackColor="Black" />
+   </asp:Menu>
+   <asp:Button SkinId="btncolor" runat="server"  Width="72px" 
+        BackColor="#AF3661" BorderColor="Black" BorderStyle="Solid" BorderWidth="2px" Font-Bold="True" 
+        Font-Size="Medium" ForeColor="White" Height="30px" />
+        
+        <asp:TextBox SkinId="txt" runat="server" Height="22px" Width="119px"></asp:TextBox>
+        <asp:ImageButton runat="server" Height="20px" ImageUrl="~/Images/icon_calendar_small.gif" width="20px" 
+         BackColor="Black" BorderColor="White" />
+        <asp:DropDownList SkinId="ddl" runat="server" Height="22px" Width="170px"></asp:DropDownList>
+        <asp:Button SkinId="btncolor1" runat="server"  Width="72px" 
+        BackColor="#44457D" BorderColor="Black" BorderStyle="Solid" BorderWidth="2px" Font-Bold="True" 
+        Font-Size="Medium" ForeColor="White" Height="30px" />
+        <asp:DropDownList SkinId="ddl1" runat="server" Height="25px" Width="95px"></asp:DropDownList>
+        <asp:Button SkinId="btncolor2" runat="server"  Width="70px" 
+        BackColor="#472E25" BorderColor="Black" BorderStyle="Solid" BorderWidth="2px" Font-Bold="True" 
+        Font-Size="Medium" ForeColor="White" Height="27px" />

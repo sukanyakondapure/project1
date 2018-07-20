@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="Admin"  description="">
+    <siteMapNode url="" title="Registration"  description="Click here for Registration" >
+      <siteMapNode url="AdminPages/StaffRegistration.aspx" title="Staff Registration"  description="" />
+      <siteMapNode url="AdminPages/BusRegistration.aspx" title="Bus Registration"  description="" />
+    </siteMapNode>
+    <siteMapNode url="" title="Search"  description="Click here to View Collections and Expenses" >
+      <siteMapNode url="AdminPages/SearchCollectionExpenses.aspx" title="Collection And Expenses"  description="" />
+    </siteMapNode>
+    <siteMapNode url="" title="View"  description="Click here for View Details" >
+      <siteMapNode url="AdminPages/ViewBusDetails.aspx" title="Bus Details"  description="" />
+      <siteMapNode url="AdminPages/ViewStaffDetails.aspx" title="Staff Details"  description="" />
+       <siteMapNode url="AdminPages/ViewTaxDetails.aspx" title="Tax Details"  description="" />
+      <siteMapNode url="AdminPages/ViewCreditPaymentDetails.aspx" title="Credit Payment Details"  description="" />
+      <siteMapNode url="AdminPages/ViewBusRouteDetails.aspx" title="Assigned Bus and Route Details"  description="" />
+    </siteMapNode>
+    <siteMapNode url="" title="Others"  description="Click here for Other Links" >
+      <siteMapNode url="AdminPages/NewRoute.aspx" title="Add New Route"  description="" />
+    </siteMapNode>	  
+  </siteMapNode>
+</siteMap>

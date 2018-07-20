@@ -1,0 +1,33 @@
+﻿.tdtitle
+{
+    background-color: #003E3E;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: x-large;
+    border: medium solid #FFFFFF;
+    text-align: center;
+    height: 45px;
+}
+.tbl
+{
+    border: medium solid #000000;
+    background-color: #BEDEDE;
+    text-align: left;
+    height: 498px;
+    width: 431px;
+}
+.trsize
+{
+    height: 80px;
+    font-size: 21px;
+    font-weight: 500;
+}
+.tdalign
+{
+    height: 70px;
+    text-align: center;
+ }
+.td1
+{    
+    width: 180px;
+}

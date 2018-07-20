@@ -1,0 +1,18 @@
+﻿#header
+{
+    border: thin solid #FFFFFF;
+    font-family: Arial;
+    color: #FFFFFF;
+    background-color: #C80283;
+    font-size: x-large;
+    font-weight: normal;
+    text-align: center;
+}
+#td
+{
+    border: thin solid #FFFFFF;
+}
+table
+{
+   margin:0 auto;
+} 

@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPages/MainMaster.master" AutoEventWireup="true" CodeFile="DriverMaster.master.cs" Inherits="Master_Pages_DriverMaster" %>
+
+<%@ Register src="~/UserControls/DriverUserControls/DriverHeaderControl.ascx" tagname="DriverHeaderControl" tagprefix="uc1" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <link href="../Styles/DriverStyles/ViewHead.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/DriverStyles/AddCollection.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/DriverStyles/AddExpenses.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/DriverStyles/AssignBusRoute.css" rel="stylesheet" type="text/css" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <div style="background-image: url('../Images/BackgroundImages/images/DriverPage3.jpg'); text-align: center; width:100%; margin-left: 0px;">
+       <table>
+       <tr>
+       <td>                               
+           <uc1:DriverHeaderControl ID="DriverHeaderControl1" runat="server" />                              
+       </td>
+       </tr>
+       <tr>
+       <td>
+           <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">                    
+           </asp:ContentPlaceHolder>
+       </td>
+       </tr>
+        </table>
+    </div>
+</asp:Content>
+

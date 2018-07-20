@@ -1,0 +1,29 @@
+﻿
+.head1
+{
+    color: #000000;
+    font-weight: bolder;
+    font-size: 25px;
+    border: medium solid #FFFFFF;
+    text-align: center;
+    height: 20px;
+}
+.tabl
+{
+    border: medium solid #990000;
+    text-align: left;
+}
+.endtd2
+{
+    height: 60px;
+    text-align: center;
+}
+.size2
+{
+    font-size: 21px;
+    font-weight: 500;    
+}
+.tdwidth2
+{    
+    text-align: center;
+}

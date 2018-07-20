@@ -1,0 +1,24 @@
+﻿.tblsreg
+{
+    border: 4px solid #000000;
+    background-color: #B8DEFA;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #000000;
+    text-align: justify;
+    width: 450px;
+}
+.tdtitle2
+{
+    border: 4px solid #000000;
+    background-color: #06304F;
+    font-family: Arial;
+    font-size: 27px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+.align1
+{
+    text-align:center;
+}

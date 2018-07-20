@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMapNode url="" title="Driver"  description="">
+  <siteMapNode url="" title="Add"  description="Click here for add expences and collection" >
+    <siteMapNode  url= "~/DriverPages/AddCollection.aspx" title="Collection"  description="" />
+    <siteMapNode  url= "~/DriverPages/AddExpences.aspx" title="Expenses"  description="" />
+  </siteMapNode>
+  <siteMapNode  url="" title="Assign"  description="Click here for assign bus and route" >
+    <siteMapNode  url="~/DriverPages/AssignBusRoute.aspx" title="Bus and Route"  description="" />
+  </siteMapNode>
+  <siteMapNode  url="" title="View"  description="Click here for View Details">
+    <siteMapNode url="~/DriverPages/ViewBusRouteDetails.aspx" title="Assigned Bus and Route Details"  description="" />
+    <siteMapNode url="~/DriverPages/ViewBusDetails.aspx" title="Bus Details"  description="" />
+  </siteMapNode>
+</siteMapNode>

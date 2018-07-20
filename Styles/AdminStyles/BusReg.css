@@ -1,0 +1,26 @@
+﻿.tblbreg
+{
+    border: 5px solid #000000;
+    background-color: #CCCCFF;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #000000;
+    text-align: justify;
+    width: 450px;
+   
+}
+.tdtitle1
+{
+    border: 2px solid #000000;
+    background-color: #841A52;
+    font-family: Arial;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.align
+{
+    text-align:center;
+}
